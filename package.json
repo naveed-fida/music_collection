@@ -1,0 +1,23 @@
+{
+  "name": "music_album",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jasmine-node spec --autotest --color --watch ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jasmine-node": "^1.14.5",
+    "node-static": "^0.7.8",
+    "nodemon": "^1.10.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-bower-concat": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0"
+  }
+}
